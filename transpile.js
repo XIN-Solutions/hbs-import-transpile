@@ -17,7 +17,8 @@ module.exports = {
 
     transpile(filename) {
         if (!fs.existsSync(filename)) {
-            throw new Error("File does not exist: " + filename);
+            console.error(`File does not exist: ${filename}`);
+            return;
         }
 
         const contents = fs.readFileSync(filename);
