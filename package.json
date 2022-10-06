@@ -1,6 +1,6 @@
 {
   "name": "hbs-import-transpile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wrap around 'handlebars' to use compiled templates as imports",
   "main": "index.js",
   "bin": "./index.js",
