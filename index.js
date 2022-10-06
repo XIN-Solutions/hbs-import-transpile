@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Transpile = require('./transpile.js');
 
 const [script, filename] = process.argv;
